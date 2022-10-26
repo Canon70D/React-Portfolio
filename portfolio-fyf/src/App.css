@@ -158,7 +158,7 @@ button.about.btn.pointer:hover {
   }
 }
 @media only screen and (max-width: 425px) {
-  span.copyright {
+  span.writing {
     font-size: 13px !important;
   }
   .footer.d_flex.align_items_center.justify_content_space_between.pz-10 {

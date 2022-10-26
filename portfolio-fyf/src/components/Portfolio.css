@@ -12,7 +12,7 @@ p.heading.p_color {
   line-height: 1.2;
 }
 
-.portfolio_box {
+.project_box {
   border-radius: 10px;
   width: 100%;
   background-color: #191919;
@@ -20,16 +20,16 @@ p.heading.p_color {
   transition: 0.4s ease;
 }
 
-.portfolio_box:hover {
+.project_box:hover {
   transform: translateY(5px);
-  background-image: linear-gradient(90deg, #ff2e13, #f8675d);
+  background-image: linear-gradient(90deg, #525252, #9b9b9b);
 }
 
-p.portfolio_text.p_color {
+p.project_box.p_color {
   margin-bottom: 0;
 }
 
-h1.portfolio_text {
+h1.project_box {
   font-size: 19px;
   font-family: sans-serif;
   padding: 10px 0px;
@@ -51,37 +51,6 @@ img.project_img {
   transition: 0.4s;
   opacity: 0.7;
   position: relative;
-}
-
-img.project_img ::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: 1;
-  opacity: 1;
-}
-
-.mask_effect {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #504d4d;
-  border-radius: 10px;
-  transition: 0.4s;
-  opacity: 0.3;
-  display: none;
-}
-
-.img_box:hover.mask_effect {
-  display: inline;
-  transform: scale(1.1);
-}
-
-.img_box:hover img.project_img {
-  transform: scale(1.1);
 }
 
 .project_meta.absolute {
@@ -120,4 +89,15 @@ a.project_btn {
 a.project_btn:hover {
   background-color: #f8675d;
   border: 2px solid #f8675d;
+}
+
+@media only screen and (max-width: 1024px) {
+  h5.project_text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  h4.project_text {
+    font-size: 18px;
+  }
 }

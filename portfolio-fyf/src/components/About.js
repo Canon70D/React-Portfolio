@@ -4,7 +4,7 @@ import aboutImg from "../assets/about.jpg";
 
 function About() {
   return (
-    <div className="about component_space">
+    <div className="about component_space" id="About">
       <div className="container">
         <div className="row">
           <div className="col_2">

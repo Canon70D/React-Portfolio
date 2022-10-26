@@ -35,9 +35,13 @@ h1.portfolio_text {
   padding: 10px 0px;
 }
 
+.git_link {
+  color: #f8675d;
+}
 .git_link:hover {
-  color: #ff8a94;
+  color: white;
   font-size: larger;
+  transition: 0.4s ease;
 }
 
 img.project_img {

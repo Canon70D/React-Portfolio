@@ -70,9 +70,7 @@ p {
 .pz_10 {
   padding: 10px 0px;
 }
-.sweet {
-  color: #f9004d;
-}
+
 .row {
   display: flex;
   width: 100%;
@@ -112,7 +110,7 @@ svg {
   position: absolute;
 }
 strong {
-  color: #f9004d;
+  color: #f8675d;
   font-weight: 600;
 }
 input {
@@ -122,8 +120,8 @@ button.btn {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  border: 2px solid #f8675d;
+  background-color: #f8675d;
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;

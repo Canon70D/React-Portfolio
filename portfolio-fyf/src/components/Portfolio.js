@@ -4,7 +4,7 @@ import Project1 from "../assets/project_1.png";
 import Project2 from "../assets/project_2.jpg";
 import Project3 from "../assets/project_3.jpg";
 import Project4 from "../assets/project_4.jpg";
-import Project5 from "../assets/project_5.png";
+import Project7 from "../assets/project_7.jpg";
 import Project6 from "../assets/project_6.png";
 
 function Portfolio() {
@@ -159,17 +159,17 @@ function Portfolio() {
           <div className="col_3">
             <div className="project_box pointer relative">
               <div className="project_box_img pointer relative">
-                <img src={Project5} alt="" className="project_img" />
+                <img src={Project7} alt="" className="project_img" />
               </div>
               <div className="project_meta absolute">
-                <h4 className="project_text">Note-Taker</h4>
+                <h4 className="project_text">P.O.S</h4>
                 <h5 className="project_text">
-                  A simple note taking application <br />
+                  A customized Point of Sale Application <br />
                   <br />
-                  NodeJS, ExpressJS
+                  MERN, GraphQL
                 </h5>
                 <a
-                  href="https://note-taker-allenyin.herokuapp.com/"
+                  href="https://guarded-meadow-66403.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="project_btn"
@@ -177,7 +177,7 @@ function Portfolio() {
                   Details
                 </a>
                 <a
-                  href="https://github.com/Canon70D/Note-Taker"
+                  href="https://github.com/Canon70D/POS"
                   target="_blank"
                   rel="noreferrer"
                   className="project_btn"
